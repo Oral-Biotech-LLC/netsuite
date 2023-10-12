@@ -55,6 +55,15 @@ class RestApiBase:
     async def _request_impl(
         self, method: str, subpath: str, **request_kw
     ) -> httpx.Response:
+        """
+        Args:
+            subpath (str): The Netsuite API endpoint to call (e.g.: /query/v1/suiteql or /record/v1/customer/<id>)
+            **request_kw (Any): A dictionary styled object to define headers and the body. Keys can
+                be: headers, timeout, and json.
+        
+        Returns:
+            response
+        """
         method = method.upper()
         url = self._make_url(subpath)
 

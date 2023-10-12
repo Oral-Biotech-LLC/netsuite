@@ -1,0 +1,19 @@
+# <type>: <#branch-id> <subject>                     (Max 72 char) --->|
+
+
+# Use bullet points here to explain what changed and why it changed.
+
+
+# --- COMMIT END ---
+# <type> can be:
+#   add      (new feature/sub-feature)
+#   update   (modify existing feature)
+#   fix      (bug fix)
+#   refactor (refactoring production code)
+#   style    (formatting, missing semi colons, etc; no code change)
+#   docs     (changes to documentation)
+#   test     (adding or refactoring tests; no production code change)
+#   chore    (updating grunt tasks etc; no production code change)
+# ------------------
+# <subject>: don't end with period, wrap the line, or use imperative
+# ------------------
